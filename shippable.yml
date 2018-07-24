@@ -1,5 +1,8 @@
 language: python
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 python:
   - 2.7 #2.7.12
   - 3.7 #3.7.0
