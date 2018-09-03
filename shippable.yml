@@ -2,12 +2,12 @@ language: python
 
 runtime:
   nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
-  
+
 python:
-  - 2.7 #2.7.12
-  - 3.7 #3.7.0
-  - pypy #5.10.0
-  - pypy3 #5.10.1
+  - 2.7 #.12 
+  - 3.7 #.0 
+  - pypy2 #6.0.0 
+  - pypy3 #6.0.0
 
 build:
   pre_ci_boot:
